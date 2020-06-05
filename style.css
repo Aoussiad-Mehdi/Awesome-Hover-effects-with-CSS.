@@ -53,6 +53,17 @@ button::before{
     border-radius: 5px;
     transition: .3s linear all;
 }
+button:hover::after{
+  content:'Hover me';
+  color:white;
+  z-index:1;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  position:absolute;
+  width:100%;
+    heighit: 100%;
+}
 .btn-3::before{
     content: '';
     width: 0;
