@@ -62,7 +62,7 @@ button:hover::after{
   transform:translate(-50%,-50%);
   position:absolute;
   width:100%;
-    heighit: 100%;
+  heighit: 100%;
 }
 .btn-3::before{
     content: '';
